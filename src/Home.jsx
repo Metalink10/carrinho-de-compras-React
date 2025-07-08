@@ -29,7 +29,7 @@ function Home() {
             style={{
               color: "red",
               marginTop: "20px",
-              width: "8opx",
+              width: "80px",
               height: "30px",
               backgroundColor: "yellow",
               borderRadius: "8px",

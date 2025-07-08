@@ -99,6 +99,7 @@ function Carrinho() {
           backgroundColor: "transparent",
           border: "1px solid black",
           color: "black",
+          marginTop: "-15px"
         }}
       >
         <img
