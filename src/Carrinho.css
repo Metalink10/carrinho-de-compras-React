@@ -1,0 +1,57 @@
+.input-selections {
+  display: "flex";
+  width: 600px;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  background-color: burlywood;
+  color: black;
+  border-radius: 10px;
+  position: relative;
+}
+
+.section-input {
+  display: flex;
+  right: 10px;
+  margin-top: 90px;
+  flex-direction: column;
+  position: absolute;
+}
+
+input {
+    margin-top: 20px;
+    outline: none;
+}
+
+.section-itens {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+.section-itens {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+    margin-top: 50px;
+}
+
+.details-itens {
+    width: 100px;
+}
+
+p {
+    width: 100px;
+}
+
+.details-preços {
+    width: 100px;
+}
+
+.img {
+    position: absolute;
+    z-index: 10;
+    top: 400px;
+    left:550px;
+}
