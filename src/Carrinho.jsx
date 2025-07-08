@@ -103,7 +103,7 @@ function Carrinho() {
         }}
       >
         <img
-          src="/public/shopping-cart.png"
+          src="/shopping-cart.png"
           alt=""
           style={{
             width: "30px",

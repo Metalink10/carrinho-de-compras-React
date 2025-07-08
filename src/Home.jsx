@@ -17,11 +17,77 @@ function Home() {
   };
   return (
     <>
-      <div className="img-car" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', height: '110px', width: '250px'}}>
-        <a href="/Carrinho" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', position: 'relative'}} >Ir para o carrinho de compra
-          <img src="/public/shopping-cart.png" style={{position: 'absolute', marginTop: '-80px', width: '40px'}} />
-        </a>
+      <div
+        className="section-nav"
+        style={{
+          height: "100px",
+          backgroundColor: "burlywood",
+          borderRadius: "10px",
+        }}
+      >
+        <nav className="nav-details">
+          <div className="logo">
+            <img
+              src="/Image_1pvib81pvib81pvi.png"
+              alt=""
+              style={{ width: "90px", borderRadius: "35%" }}
+            />
+          </div>
+          <div className="details-about">
+            <ul>
+              <li>
+                <a href="">About</a>
+              </li>
+            </ul>
+          </div>
+          <div className="details-Itens">
+            <ul>
+              <li>
+                <a href="">Itens</a>
+              </li>
+            </ul>
+          </div>
+          <div className="details-Products">
+            <ul>
+              <li>
+                <a href="">Products</a>
+              </li>
+            </ul>
+          </div>
+          <div
+            className="img-car"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              height: "110px",
+              width: "250px",
+            }}
+          >
+            <a
+              href="/Carrinho"
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                width: "100%",
+                height: "100%",
+                position: "relative",
+              }}
+            >
+              <img
+                src="/shopping-cart.png"
+                style={{
+                  position: "absolute",
+                  marginTop: "-80px",
+                  width: "40px",
+                }}
+              />
+            </a>
+          </div>
+        </nav>
       </div>
+
       <div className="main">
         <h1>Testando useRef</h1>
         {paragrafoVisivel && (
