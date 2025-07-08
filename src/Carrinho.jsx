@@ -82,7 +82,7 @@ function Carrinho() {
             marginTop: "20px",
             width: "130px",
             height: "60px",
-            backgroundColor: "yellow",
+            backgroundColor: "burlywood",
             borderRadius: "8px",
             position: "absolute",
           }}
@@ -102,12 +102,12 @@ function Carrinho() {
         }}
       >
         <img
-          src="/src/img/shopping-cart.png"
+          src="/public/shopping-cart.png"
           alt=""
           style={{
             width: "30px",
             position: "absolute",
-            marginTop: "-30px",
+            marginTop: "-10px",
             right: "90px",
           }}
         />

@@ -19,7 +19,7 @@ function Home() {
     <>
       <div className="img-car" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', height: '110px', width: '250px'}}>
         <a href="/Carrinho" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', position: 'relative'}} >Ir para o carrinho de compra
-          <img src="/src/img/shopping-cart.png" style={{position: 'absolute', marginTop: '-80px', width: '40px'}} />
+          <img src="/public/shopping-cart.png" style={{position: 'absolute', marginTop: '-80px', width: '40px'}} />
         </a>
       </div>
       <div className="main">
