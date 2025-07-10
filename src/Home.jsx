@@ -20,17 +20,21 @@ function Home() {
       <div
         className="section-nav"
         style={{
-          height: "100px",
-          backgroundColor: "burlywood",
+          height: "70px",
+          backgroundColor: "white",
+          position:'relative',
           borderRadius: "10px",
+          border:'2px solid rgb(148, 112, 112)',
+          boxShadow: 'rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px'
         }}
       >
         <nav className="nav-details">
-          <div className="logo">
+          <div className="logo" style={{ borderTopLeftRadius:'10px', borderBottomLeftRadius:'10px'}}>
             <img
               src="/Image_1pvib81pvib81pvi.png"
               alt=""
-              style={{ width: "90px", borderRadius: "35%" }}
+              style={{ width: "100%", height: "100%", borderTopLeftRadius:'10px'
+ }}
             />
           </div>
           <div className="details-about">
@@ -60,27 +64,21 @@ function Home() {
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              height: "110px",
-              width: "250px",
+              height: "40px",
+              width: "37px",
+              padding:'20px',
+              position:'relative'
             }}
           >
             <a
               href="/Carrinho"
-              style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                width: "100%",
-                height: "100%",
-                position: "relative",
-              }}
+              
             >
               <img
                 src="/shopping-cart.png"
                 style={{
-                  position: "absolute",
-                  marginTop: "-80px",
-                  width: "40px",
+                  
+                  width: "100%",
                 }}
               />
             </a>
